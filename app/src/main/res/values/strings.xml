@@ -4,6 +4,9 @@
     <string name="opcao_aba">Abas</string>
     <string name="opcao_spinner">Spinner</string>
     <string name="opcao_pager">View Pager</string>
+    <string name="opcao_amigos">Amigos</string>
+    <string name="opcao_login">Login</string>
+    <string name="opcao_logout">Logout</string>
     <string-array name="secoes">
         <item>Seção 1</item>
         <item>Seção 2</item>

@@ -15,5 +15,13 @@
             android:id="@+id/action_pager"
             android:icon="@android:drawable/ic_menu_delete"
             android:title="@string/opcao_pager" />
+        <item
+            android:id="@+id/action_friends"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/opcao_amigos" />
     </group>
+    <item
+        android:id="@+id/action_login_logout"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/opcao_login" />
 </menu>
