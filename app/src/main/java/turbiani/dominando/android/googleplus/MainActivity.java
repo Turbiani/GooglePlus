@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
@@ -183,7 +184,12 @@ public class MainActivity extends AppCompatActivity implements
         FragmentManager fm = getSupportFragmentManager();
 
         if (fm.findFragmentByTag(titulo) == null) {
-            PrimeiroNivelFragment primeiroNivelFragment = PrimeiroNivelFragment.novaInstancia(titulo);
+            Fragment primeiroNivelFragment;
+            if(mOpcaoSelecionada == R.id.action_friends){
+                primeiroNivelFragment = new ListaAmigosFragment();
+            }else{
+                primeiroNivelFragment = PrimeiroNivelFragment.novaInstancia(titulo);
+            }
 
             getSupportFragmentManager()
                     .beginTransaction()
@@ -265,7 +271,7 @@ public class MainActivity extends AppCompatActivity implements
         if (mGoogleApiClient.isConnected()) {
             Person person = Plus.PeopleApi.getCurrentPerson(mGoogleApiClient);
             if (person != null) {
-                txtNome.setText(person.getDisplayName());
+                txtNome.setText(person.getDisplayName()==null || person.getDisplayName()=="" ? "GooglePlus + Navegacao" : person.getDisplayName());
                 if (person.hasImage()) {
                     Target target = new Target() {
                         @Override

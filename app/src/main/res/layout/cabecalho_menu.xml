@@ -14,7 +14,7 @@
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:layout_alignParentBottom="true"
-        android:src="@mipmap/ic_launcher"
+        android:src="@mipmap/barak_obama_icon"
         android:layout_margin="@dimen/activity_horizontal_margin" />
     <TextView
         android:id="@+id/txtNome"
