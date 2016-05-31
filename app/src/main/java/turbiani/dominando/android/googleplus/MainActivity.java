@@ -302,7 +302,7 @@ public class MainActivity extends AppCompatActivity implements
         } else {
             imgCapa.setImageBitmap(null);
             txtNome.setText(R.string.app_name);
-            imgFoto.setImageResource(R.mipmap.ic_launcher);
+            imgFoto.setImageResource(R.mipmap.barak_obama_icon);
         }
         mNavigationView.getMenu()
                 .findItem(R.id.action_login_logout)
