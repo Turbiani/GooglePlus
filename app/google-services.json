@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "270526924041",
+    "project_id": "tactical-codex-132823"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270526924041:android:4d4b491aae866ac3",
+        "android_client_info": {
+          "package_name": "turbiani.dominando.android.googleplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270526924041-ilv18ikhghte32kopicp99fdjumo55kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "turbiani.dominando.android.googleplus",
+            "certificate_hash": "904CA6F8C7DF495A66169836F2E0CFA9B2D464D4"
+          }
+        },
+        {
+          "client_id": "270526924041-620c15vmsgcs5funq8g96th637qah7th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiZ8R80KArQDGtlSbqezaAX8tqVAppXlI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
